@@ -188,7 +188,7 @@ a{
 }
 .intro{
     padding: 48px 35px 45px;
-    border-bottom: 1px solid rgba($color:#fff, $alpha:0.1);
+    border-bottom: 1px solid rgba(#fff, 0.1);
     &__text{
         color: $color-grey-light;
         font-size: 16px;
@@ -257,7 +257,7 @@ a{
     }
 }
 .upload{
-    padding: 45px 0;
+    padding: 45px 35px;
     border-bottom: 1px solid rgba($color:#fff, $alpha:0.1);
     color: $color-grey-medium;
     &__container{
@@ -296,6 +296,28 @@ a{
         font-size: 12px;
         margin-top: -2px;
     }
+}
+
+.footer{
+    padding-top: 50px;
+    padding-left: 35px;
+    font-size:11px;
+    color: rgba($color: $color-grey-medium, $alpha: 0.6);
+
+    &__list{
+        display: flex;
+        gap: 15px;
+        margin-top: 10px;
+    }
+    &__item{
+
+    }
+    &__link{
+
+    }
+}
+.copyright{
+    font-size: inherit;
 }
 
 /* --------Gallery-------- */
